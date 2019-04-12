@@ -15,13 +15,16 @@
 
 <div class="jumbotron">
   <h1 class="display-4">Hi!</h1>
-  <p class="lead">This is a REST API with Spring, JSON and Hibernate </p>
+  <p class="lead">This is a REST API with Spring, JSON, Hibernate and Spring Security </p>
   <hr class="my-4">
   <p> </p>
-  <a class="btn btn-primary btn-lg" href="api/customers" role="button">customers</a>
-  
-  <a href="${pageContext.request.contextPath}/api/customers">Get All Customers</a>
-
+  <p>List of all customers:  GET /api/customers</p>
+  <p>Single customer:  GET /api/customers/{customerId}</p>
+  <p>Add a new customer:  POST /api/customers</p>
+  <p>Update an existing customer:  PUT /api/customers</p>
+  <p>Delete a customer:  DELETE /api/customers/{customerId}</p>
+  <p><a class="btn btn-primary btn" href="${pageContext.request.contextPath}/api/customers" role="button">quick view list of all customers</a>
+  </p>
   
 </div>
 

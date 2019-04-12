@@ -1,2 +1,5 @@
 # SpringRESTproject
-CRUD database project - Spring REST
+
+REST Spring with Hibernate, JSON and Spring Security
+
+![N|Solid](http://place4code.com/git-img/springRESTproject.jpg)
